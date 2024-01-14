@@ -14,8 +14,6 @@ app.get("/", (c) => {
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
     <nav>

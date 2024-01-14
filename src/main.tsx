@@ -14,6 +14,12 @@ app.get("/", (c) => {
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <!-- styles don't work in shadowroot -->
+    <style>
+      .title {
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -29,7 +35,7 @@ app.get("/", (c) => {
         <h1>Home page</h1>
         <hr />
         <slot name="id-1">
-          Loading...
+          <div class="title">Loading...</div>
         </slot>
         <hr />
         <footer>copyright</footer>

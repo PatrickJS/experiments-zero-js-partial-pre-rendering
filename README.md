@@ -13,3 +13,7 @@ https://caniuse.com/?search=slot
 ```bash
 deno task dev
 ```
+
+## Deno Deploy Url
+
+https://rare-crab-33.deno.dev/

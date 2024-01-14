@@ -19,6 +19,7 @@ app.get("/", (c) => {
     <nav>
       <a href="/" aria-current="page">Home</a>
       <a href="/page2.html">Other page</a>
+      <a href="https://github.com/PatrickJS/experiments-zero-js-partial-pre-rendering" target="_blank">Github</a>
     </nav>
     <main>
       `);

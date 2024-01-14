@@ -3,6 +3,6 @@
     "hono/": "https://deno.land/x/hono@v3.12.3/"
   },
   "tasks": {
-    "dev": "deno run --allow-net --allow-read --watch ./src/main.ts"
+    "dev": "deno run --allow-net --allow-read --watch ./src/main.tsx"
   }
 }
